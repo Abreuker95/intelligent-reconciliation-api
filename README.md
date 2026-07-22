@@ -10,22 +10,10 @@ The Frontend Layer: A 3-panel interactive dashboard built with responsive CSS Gr
 
 The Backend Tier: A containerized Python microservice built with FastAPI and Pydantic, hosted via cloud infrastructure with automated CI/CD deployments through GitHub.
 
-🚀 How It Works (The Pipeline)
-[Ingestion Queue] ---> (Async POST Request) ---> [FastAPI Microservice]
-                                                          │
-                                          ┌───────────────┴───────────────┐
-                                          ▼                               ▼
-                                [Simulated LLM/OCR]            [Database Validation]
-                                          │                               │
-                                          └───────────────┬───────────────┘
-                                                          ▼
-                                                [Reconciliation Matrix]
-                                                          │
-                         ┌────────────────────────────────┴────────────────────────────────┐
-                         ▼                                                                 ▼
-             (Straight-Through Match)                                            (Exception Handling)
-              • Green Success State                                              • Red Flag Status
-              • Automatic AP Routing                                             • Manual Override Queue
+How It Works (The Pipeline)
+
+
+<img width="754" height="370" alt="image" src="https://github.com/user-attachments/assets/2a07a79b-35b1-4e14-a71b-03f7cb5cfea7" />
 
 
               
