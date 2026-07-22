@@ -44,10 +44,12 @@ Plaintext
 To run the FastAPI backend locally for development:
 
 Bash
+
 # Install dependencies
 pip install -r requirements.txt
 
 # Start the development server
+
 uvicorn main:app --reload
 2. Cloud Deployment (CI/CD Pipeline)
 This repository is linked to a cloud hosting platform via a continuous deployment pipeline.
