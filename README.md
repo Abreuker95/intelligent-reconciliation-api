@@ -27,7 +27,7 @@ Straight-Through Processing (STP): If the invoice amount matches the approved bu
 
 Exception Handling: If a variance, late fee, or missing PO is detected, the engine flags the transaction as an exception, triggering a human-in-the-loop workflow requiring manual audit override.
 
-💻 Tech Stack
+Tech Stack
 Frontend: HTML5, CSS Grid, Vanilla JavaScript (ES6+), Asynchronous Fetch API
 
 Backend: Python 3.11+, FastAPI, Uvicorn, Pydantic, CORS Middleware
