@@ -27,6 +27,7 @@ The Backend Tier: A containerized Python microservice built with FastAPI and Pyd
               • Green Success State                                              • Red Flag Status
               • Automatic AP Routing                                             • Manual Override Queue
 
+
               
 Ingestion & Event Trigger: The user selects a vendor invoice from the 5-item multi-scenario queue. This triggers an asynchronous fetch() POST request containing the raw OCR payload.
 
